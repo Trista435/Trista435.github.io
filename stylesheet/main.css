@@ -1,0 +1,111 @@
+.Header {
+	z-index:100;
+	width:99%;
+	height: 115px;
+	text-align: left;
+	line-height: 80px;
+	font-size: 15px;
+	color: #fffaf3;
+	font-weight: bold;
+	background-color:#E2C0C0;
+	position:fixed;
+	top:0px;
+	
+        }
+
+
+.YACHI_YA{
+	position: relative;
+}
+.YACHI{
+	position:absolute;
+	left:5%;
+	
+}
+.container-1{
+	position:absolute;
+	left:40%;
+	top:20%;
+}
+.Map{
+	position:absolute;
+	right:2%;
+	top:50%;
+}
+.Map_1{
+	position:relative;
+	top:30%;
+	
+}
+
+.Body{
+	padding-top: 57px;
+	top:25%;
+	width: 100%;
+	height:70%;
+    text-align: center;
+    line-height: 225px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+	background-color: #F7F7CE;
+	float: right;
+	font-family:monospace;
+	display:flex;
+
+
+	min-height:100vh;
+}
+.wave{
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	-webkit-box-reflect:below -12px linear-gradient(transparent,rgba(0,0,0,0.2));
+}
+.wave span{
+	position:relative;
+	display:inline-block;
+	color:black;
+	font-size:2em;
+	animation:animate 1s ease-in-out infinite;
+	animation-delay: calc(.1s*var(--i));
+}
+@keyframes animate{
+	0%{
+		transform:translateY(0px);
+	}
+	20%{
+		transform:translateY(-24px);
+	}
+	40%,100%{
+		transform:translateY(0px);
+	}
+}
+.Footer {
+
+	
+	height: 15%;
+	text-align: center;
+	line-height: 80px;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	background-color: #AACCED;
+
+        }
+		
+
+.img1_C{
+	position: absolute;
+	top:300px;
+	left:25%;
+
+}
+.img1{
+	
+	bottom:5%;
+	right:15%;
+	left:15%;
+
+}
